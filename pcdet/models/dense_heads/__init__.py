@@ -7,7 +7,7 @@ from .point_intra_part_head import PointIntraPartOffsetHead
 from .center_head import CenterHead
 from .voxelnext_head import VoxelNeXtHead
 from .transfusion_head import TransFusionHead
-from .anchor_head_rdiou_3cat import AnchorHeadRDIoU_3CAT
+from .anchor_head_iou import AnchorHeadIoU
 
 __all__ = {
     'AnchorHeadTemplate': AnchorHeadTemplate,
@@ -20,5 +20,5 @@ __all__ = {
     # 'CenterHeadSingle': CenterHeadSingle,
     'VoxelNeXtHead': VoxelNeXtHead,
     'TransFusionHead': TransFusionHead,
-    'AnchorHeadRDIoU_3CAT': AnchorHeadRDIoU_3CAT
+    'AnchorHeadIoU': AnchorHeadIoU
 }

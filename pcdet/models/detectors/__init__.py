@@ -15,7 +15,7 @@ from .pillarnet import PillarNet
 from .voxelnext import VoxelNeXt
 from .transfusion import TransFusion
 from .bevfusion import BevFusion
-from .rdiou_net import RDIoUNet
+from .my_net import MyNet
 from .my_piilarnet import MyPillarNet
 
 __all__ = {
@@ -37,7 +37,7 @@ __all__ = {
     'VoxelNeXt': VoxelNeXt,
     'TransFusion': TransFusion,
     'BevFusion': BevFusion,
-    'RDIoUNet': RDIoUNet,
+    'MyNet': MyNet,
 }
 
 
